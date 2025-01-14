@@ -1,57 +1,59 @@
-import React, { useState, useRef } from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Snackbar, Alert } from '@mui/material';
+import { Snackbar } from '@mui/material';
 
 const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
-  align-items: center;
-  @media (max-width: 960px) {
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+z-index: 1;
+align-items: center;
+@media (max-width: 960px) {
     padding: 0px;
-  }
-`;
+}
+`
 
 const Wrapper = styled.div`
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  max-width: 1350px;
-  padding: 0px 0px 80px 0px;
-  gap: 12px;
-  @media (max-width: 960px) {
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+width: 100%;
+max-width: 1350px;
+padding: 0px 0px 80px 0px;
+gap: 12px;
+@media (max-width: 960px) {
     flex-direction: column;
-  }
-`;
+}
+`
 
 const Title = styled.div`
-  font-size: 42px;
-  text-align: center;
-  font-weight: 600;
-  margin-top: 20px;
+font-size: 42px;
+text-align: center;
+font-weight: 600;
+margin-top: 20px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
-    margin-top: 12px;
-    font-size: 32px;
+      margin-top: 12px;
+      font-size: 32px;
   }
 `;
 
 const Desc = styled.div`
-  font-size: 18px;
-  text-align: center;
-  max-width: 600px;
-  color: ${({ theme }) => theme.text_secondary};
-  @media (max-width: 768px) {
-    margin-top: 12px;
-    font-size: 16px;
-  }
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    color: ${({ theme }) => theme.text_secondary};
+    @media (max-width: 768px) {
+        margin-top: 12px;
+        font-size: 16px;
+    }
 `;
+
 
 const ContactForm = styled.form`
   width: 95%;
@@ -64,14 +66,14 @@ const ContactForm = styled.form`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   margin-top: 28px;
   gap: 12px;
-`;
+`
 
 const ContactTitle = styled.div`
   font-size: 24px;
   margin-bottom: 6px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
-`;
+`
 
 const ContactInput = styled.input`
   flex: 1;
@@ -85,7 +87,7 @@ const ContactInput = styled.input`
   &:focus {
     border: 1px solid ${({ theme }) => theme.primary};
   }
-`;
+`
 
 const ContactInputMessage = styled.textarea`
   flex: 1;
@@ -99,7 +101,7 @@ const ContactInputMessage = styled.textarea`
   &:focus {
     border: 1px solid ${({ theme }) => theme.primary};
   }
-`;
+`
 
 const ContactButton = styled.input`
   width: 100%;
@@ -107,6 +109,8 @@ const ContactButton = styled.input`
   text-align: center;
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
@@ -114,55 +118,28 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
-`;
+`
+
+
 
 const Contact = () => {
-  const [open, setOpen] = useState(false);
-  const [error, setError] = useState(null);
+
+  //hooks
+  const [open, setOpen] = React.useState(false);
   const form = useRef();
-
-  const validateForm = () => {
-    const email = form.current.from_email.value;
-    const name = form.current.from_name.value;
-    const subject = form.current.subject.value;
-    const message = form.current.message.value;
-
-    if (!email || !name || !subject || !message) {
-      setError('All fields are required.');
-      return false;
-    }
-
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      setError('Please enter a valid email address.');
-      return false;
-    }
-
-    if (message.length < 10) {
-      setError('Message must be at least 10 characters long.');
-      return false;
-    }
-
-    setError(null);
-    return true;
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!validateForm()) return;
+    emailjs.sendForm('service_cb9uvf1', 'template_io55zmv', form.current, '_J3CZczmsFWEOvlVX')
+      .then((result) => {
+        setOpen(true);
+        form.current.reset();
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
 
-    emailjs
-      .sendForm('service_2jl3q7e', 'template_jgcbqjj', form.current, 'Hvo7O-WOQcVAiKXGb')
-      .then(
-        (result) => {
-          setOpen(true);
-          form.current.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+
 
   return (
     <Container>
@@ -177,17 +154,16 @@ const Contact = () => {
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
-        {error && <Alert severity="error">{error}</Alert>}
         <Snackbar
           open={open}
           autoHideDuration={6000}
-          onClose={() => setOpen(false)}
+          onClose={()=>setOpen(false)}
           message="Email sent successfully!"
           severity="success"
         />
       </Wrapper>
     </Container>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

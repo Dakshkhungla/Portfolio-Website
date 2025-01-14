@@ -1,8 +1,7 @@
-import payroll from '../images/Payroll.png'
-import tours from '../images/Tours.png'
-import plant from '../images/Plant.png'
-import mysql from '../images/sql-to-nosql.png'
-
+import payroll from "../images/Payroll.png";
+import plant from "../images/Plant.png";
+import mysql from "../images/sql-to-nosql.png";
+import tours from "../images/Tours.png";
 export const Bio = {
   name: "Daksh Khungla",
   roles: [
@@ -317,7 +316,7 @@ export const projects = [
     "title": "MySQL to NoSQL Migration",
     "date": "Jan 2025 - Feb 2025",
     "description": "Developed a web application using React, Express, and CORS to automate the migration of MySQL databases to a NoSQL format. Designed features to preserve foreign key relationships and validate data integrity, significantly reducing manual efforts in database migration.",
-    "image": "mysql",
+    "image": mysql,
     "tags": [
         "React",
         "Express",
@@ -370,7 +369,7 @@ export const projects = [
   date: "Jul 2023 - Sep 2023",
   description:
       "Developed a web application to collect data for plant disease identification. Dynamically fetched location data and stored plant information, which was further utilized for machine learning analysis. The project was built in ASP.NET and VB.NET, integrating real-time weather api to fetch the loaction and temperature.",
-  image: plant,
+  image:plant,
   tags: [
       "ASP.NET",
       "VB.NET",

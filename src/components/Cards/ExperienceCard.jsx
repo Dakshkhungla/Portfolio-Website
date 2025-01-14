@@ -36,7 +36,7 @@ text-overflow: ellipsis;
 const Card = styled.div`
     width: 650px;
     border-radius: 10px;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     padding: 12px 16px;
     justify-content: space-between;
     position: relative;
@@ -64,7 +64,9 @@ const Card = styled.div`
         -webkit-line-clamp: unset;
 
     }
-    border: 0.1px solid #854CE6;
+
+    border: 0.1px solid #306EE8;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
 `
 
 const Top = styled.div`
@@ -90,7 +92,7 @@ const Body = styled.div`
 `
 
 
-const Name = styled.div`
+const Role = styled.div`
     font-size: 18px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary + 99};
@@ -99,7 +101,7 @@ const Name = styled.div`
     }
 `
 
-const Degree = styled.div`
+const Company = styled.div`
     font-size: 14px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
@@ -117,10 +119,24 @@ const Date = styled.div`
     }
 `
 
-const Grade = styled.div`
-    font-size: 14px;
-    font-weight: 500;
-    color: ${({ theme }) => theme.text_secondary + 99};
+
+const Skills = styled.div`
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin-top: -10px;
+`
+
+const ItemWrapper = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+`
+
+const Skill = styled.div`
+    font-size: 15px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 99};
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -128,23 +144,43 @@ const Grade = styled.div`
 
 
 
-const EducationCard = ({ education }) => {
+const ExperienceCard = ({ experience }) => {
     return (
         <Card>
             <Top>
-                <Image src={education.img} />
+                <Image src={experience.img} />
                 <Body>
-                    <Name>{education.school}</Name>
-                    <Degree>{education.degree}</Degree>
-                    <Date>{education.date}</Date>
+                    <Role>{experience.role}</Role>
+                    <Company>{experience.company}</Company>
+                    <Date>{experience.date}</Date>
                 </Body>
             </Top>
-            <Grade><b>Grade: </b>{education.grade}</Grade>
             <Description>
-                <Span>{education.desc}</Span>
+                {experience?.desc &&
+                    <Span>{experience?.desc}</Span>
+
+                }
+                {experience?.skills &&
+                    <>
+                        <br />
+                        <Skills>
+                            <b>Skills:</b>
+                            <ItemWrapper>
+                                {experience?.skills?.map((skill, index) => (
+                                    <Skill>• {skill}</Skill>
+                                ))}
+                            </ItemWrapper>
+                        </Skills>
+                    </>
+                }
             </Description>
+            {experience.doc &&
+                <a href={experience.doc} target="new">
+                    <Document src={experience.doc} />
+                </a>
+            }
         </Card>
     )
 }
 
-export default EducationCard
+export default ExperienceCard
