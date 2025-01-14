@@ -326,7 +326,8 @@ export const projects = [
         "Web Application",
         "Automation"
     ],
-    "category": "web app"
+    "category": "web app",
+    "github":"https://github.com/Dakshkhungla/MySQL-to-NoSQL",
 },
   {
     id: 5,
