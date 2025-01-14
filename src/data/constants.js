@@ -2,13 +2,14 @@ import payroll from "../images/Payroll.png";
 import plant from "../images/Plant.png";
 import mysql from "../images/sql-to-nosql.png";
 import tours from "../images/Tours.png";
+import evansh from "../images/evansh.png";
 export const Bio = {
   name: "Daksh Khungla",
   roles: [
     "Backend Developer",
     ".Net Developer",
     "Devops Engineer",
-    "PHP Engineer",
+    "PHP Developer",
   ],
   description:
     "I'm a CSE student with experience in backend development, DevOps, and a growing interest in AI, ML, and Data Science. I’ve completed 5+ freelance projects and am focused on expanding my skills in backend technologies while exploring AI and ML to build innovative solutions.",
@@ -252,7 +253,7 @@ export const experiences = [
 
     {
     id: 0,
-    img: "https://scontent.fbdq8-1.fna.fbcdn.net/v/t39.30808-1/277462483_348784087203946_8274739676062104607_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=qyWPOyNEfk4Q7kNvgFvQ5OX&_nc_zt=24&_nc_ht=scontent.fbdq8-1.fna&_nc_gid=Aic4opr07opqIb8rdEgJ70m&oh=00_AYAQGhd8WfrsAEDY0_dJK7UBTN7WhlbpeXOWVKvmRUzUlQ&oe=6777EC9E",
+    img: evansh,
     role: "SDE Intern",
     company: "Evansh Services",
     date: "Jun 2024 - Jul 2024",
