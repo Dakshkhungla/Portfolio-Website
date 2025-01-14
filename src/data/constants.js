@@ -1,6 +1,7 @@
 import payroll from '../images/Payroll.png'
 import tours from '../images/Tours.png'
 import plant from '../images/Plant.png'
+import mysql from '../images/sql-to-nosql.png'
 
 export const Bio = {
   name: "Daksh Khungla",
@@ -66,31 +67,31 @@ export const skills = [
     ],
   },
 
-  {
-    title: "SDE Designs",
-    skills: [
-      {
-        name: "System Design HLD",
-        image:
-          "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
-      },
-      {
-        name: "System Design LLD",
-        image:
-          "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
-      },
-      {
-        name: "Microservices Designs Patterns",
-        image:
-          "https://w1.pngwing.com/pngs/535/256/png-transparent-microservices-text-computer-software-line-circle-area-diagram-symmetry-organization-thumbnail.png",
-      },
-      {
-        name: "Coding Design Patterns",
-        image:
-          "https://w1.pngwing.com/pngs/561/274/png-transparent-cartoon-book-reactive-design-patterns-distributed-computing-computer-programming-system-programming-ebook-edition-application-software-computer-network-blue-thumbnail.png",
-      },
-    ],
-  },
+  // {
+  //   title: "SDE Designs",
+  //   skills: [
+  //     {
+  //       name: "System Design HLD",
+  //       image:
+  //         "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
+  //     },
+  //     {
+  //       name: "System Design LLD",
+  //       image:
+  //         "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
+  //     },
+  //     {
+  //       name: "Microservices Designs Patterns",
+  //       image:
+  //         "https://w1.pngwing.com/pngs/535/256/png-transparent-microservices-text-computer-software-line-circle-area-diagram-symmetry-organization-thumbnail.png",
+  //     },
+  //     {
+  //       name: "Coding Design Patterns",
+  //       image:
+  //         "https://w1.pngwing.com/pngs/561/274/png-transparent-cartoon-book-reactive-design-patterns-distributed-computing-computer-programming-system-programming-ebook-edition-application-software-computer-network-blue-thumbnail.png",
+  //     },
+  //   ],
+  // },
 
   {
     title: "Frontend",
@@ -259,17 +260,11 @@ export const experiences = [
     location: "Gandhidham, India",
     desc: "Led the creation of a dynamic web-based portal, managing a team of 4 developers, coordinating with stakeholders to ensure 100% on-time delivery and quality assurance.",
       skills: [
-      "Java",
-      "Spring boot",
-      "Microservice",
-      "Docker",
-      "Apache Camel",
-      "Apache Kafka",
-      "CI/CD Jenkins",
-      "Junit",
-      "JFrog",
-      "AWS",
-      "Dbeaver"
+      "ASP.Net",
+      "Ajax",
+      "Javascript",
+      "Bootstarp",
+      "Google O Auth",
     ],
   },
   {
@@ -317,6 +312,22 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    "id": 5,
+    "title": "MySQL to NoSQL Migration",
+    "date": "Jan 2025 - Feb 2025",
+    "description": "Developed a web application using React, Express, and CORS to automate the migration of MySQL databases to a NoSQL format. Designed features to preserve foreign key relationships and validate data integrity, significantly reducing manual efforts in database migration.",
+    "image": "mysql",
+    "tags": [
+        "React",
+        "Express",
+        "CORS",
+        "Database Migration",
+        "Web Application",
+        "Automation"
+    ],
+    "category": "web app"
+},
   {
     id: 5,
     title: "Payroll Management System",
