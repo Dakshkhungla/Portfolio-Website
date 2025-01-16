@@ -1,8 +1,8 @@
-// import payroll from "../images/Payroll.png";
-// import plant from "../images/Plant.png";
-// import mysql from "../images/sql-to-nosql.png";
-// import tours from "../images/Tours.png";
-// import evansh from "../images/evansh.png";
+import payroll from "../images/Payroll.png";
+import plant from "../images/Plant.png";
+import mysql from "../images/sql-to-nosql.png";
+import tours from "../images/Tours.png";
+import evansh from "../images/evansh.png";
 export const Bio = {
   name: "Daksh Khungla",
   roles: [
@@ -14,7 +14,7 @@ export const Bio = {
   description:
     "I'm a CSE student with experience in backend development, DevOps, and a growing interest in AI, ML, and Data Science. I’ve completed 5+ freelance projects and am focused on expanding my skills in backend technologies while exploring AI and ML to build innovative solutions.",
   github: "https://github.com/Dakshkhungla",
-  resume: "https://drive.google.com/file/d/143mTWAIZODDN8-ilXUinZ_2j8H57dRRX/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1Qt5Q0_x0os80SIV6zoM8phKSnZpRtEXc/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dakshkhungla/",
   insta: "https://www.instagram.com/dakshkhungla/",
 };
@@ -253,7 +253,7 @@ export const experiences = [
 
     {
     id: 0,
-    img: "https://raw.githubusercontent.com/Dakshkhungla/images/refs/heads/main/evansh.png?token=GHSAT0AAAAAAC4LLWO5HXUD7PCLSJ7GXHHYZ4HLU4A",
+    img: evansh,
     role: "SDE Intern",
     company: "Evansh Services",
     date: "Jun 2024 - Jul 2024",
@@ -317,7 +317,7 @@ export const projects = [
     "title": "MySQL to NoSQL Migration",
     "date": "Jan 2025 - Feb 2025",
     "description": "Developed a web application using React, Express, and CORS to automate the migration of MySQL databases to a NoSQL format. Designed features to preserve foreign key relationships and validate data integrity, significantly reducing manual efforts in database migration.",
-    "image": "https://raw.githubusercontent.com/Dakshkhungla/images/refs/heads/main/sql-to-nosql.png?token=GHSAT0AAAAAAC4LLWO5OKIFW23CKYPULEXWZ4HLVLA",
+    "image": mysql,
     "tags": [
         "React",
         "Express",
@@ -335,7 +335,7 @@ export const projects = [
     date: "Jan 2023 - Mar 2023",
     description:
         "Developed a desktop application using VB.NET to automate salary management for 40+ employees. Adhered to government guidelines and generated 10+ reports, including salary slips, bank statements, and NPS/GPF lists. Significantly reduced manual processing time by 70%.",
-    image:"https://raw.githubusercontent.com/Dakshkhungla/images/refs/heads/main/Payroll.png?token=GHSAT0AAAAAAC4LLWO4CMH2HFL7SWEYA2UIZ4HLUGA",
+    image:payroll,
     tags: [
         "VB.NET",
         "Desktop Application",
@@ -352,7 +352,7 @@ export const projects = [
     date: "Apr 2023 - Jun 2023",
     description:
         "Created a dynamic web application using ASP.NET, JavaScript, and Bootstrap for a local client. Integrated a payment gateway and Google authorization for secure and efficient transactions. Provided service for 500+ users, resulting in a 25% increase in customer satisfaction.",
-    image:"https://raw.githubusercontent.com/Dakshkhungla/images/refs/heads/main/Tours.png?token=GHSAT0AAAAAAC4LLWO56YBV6BFXRDMJ4RTEZ4HLS7A",
+    image:tours,   
     tags: [
         "ASP.NET",
         "JavaScript",
@@ -370,8 +370,8 @@ export const projects = [
   date: "Jul 2023 - Sep 2023",
   description:
       "Developed a web application to collect data for plant disease identification. Dynamically fetched location data and stored plant information, which was further utilized for machine learning analysis. The project was built in ASP.NET and VB.NET, integrating real-time weather api to fetch the loaction and temperature.",
-  image:"https://raw.githubusercontent.com/Dakshkhungla/images/refs/heads/main/Plant.png?token=GHSAT0AAAAAAC4LLWO5BIHXMAG2GZ2P7M6QZ4HLTXA",
-  tags: [
+  image:plant,
+ tags: [
       "ASP.NET",
       "VB.NET",
       "Weather API",
