@@ -1,0 +1,90 @@
+/* General Styles */
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(135deg, #1e1e2f, #111);
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #ff5733;
+}
+
+/* Rotating Skill Showcase */
+.skill-circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 2rem auto;
+  border-radius: 50%;
+  animation: rotate 10s linear infinite;
+}
+
+.skill-item {
+  position: absolute;
+  font-size: 2rem;
+  color: #ff5733;
+  animation: bounce 2s infinite ease-in-out;
+  transform-origin: center;
+}
+
+.skill-item:nth-child(1) {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(calc(var(--i) * 60deg));
+}
+
+.skill-item:nth-child(2) {
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%) rotate(calc(var(--i) * 60deg));
+}
+
+.skill-item:nth-child(3) {
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, 50%) rotate(calc(var(--i) * 60deg));
+}
+
+.skill-item:nth-child(4) {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%) rotate(calc(var(--i) * 60deg));
+}
+
+.skill-item:nth-child(5) {
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%) rotate(calc(var(--i) * 60deg));
+}
+
+.skill-item:nth-child(6) {
+  top: 0;
+  right: 50%;
+  transform: translate(50%, -50%) rotate(calc(var(--i) * 60deg));
+}
+
+/* Animations */
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}

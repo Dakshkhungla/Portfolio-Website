@@ -12,9 +12,11 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
       <NavLogo to='/'>
-  <a href="/" style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20', cursor: 'pointer' }}>
-    <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-  </a>
+      <div style={{ color: "rgb(133, 76, 230)" }} className="sc-guDLey kzRRTg">&lt;</div>
+<span  style={{ color: "white" }}>Daksh</span>
+<div style={{ color: "rgb(133, 76, 230)" }}>/</div>
+<span style={{ color: "white" }}>Khungla</span>
+<div style={{ color: "rgb(133, 76, 230)" }} className="sc-guDLey kzRRTg">&gt;</div>
 </NavLogo>
 
         <MobileIcon>
