@@ -1,8 +1,8 @@
-import payroll from "../images/Payroll.png";
-import plant from "../images/Plant.png";
-import mysql from "../images/sql-to-nosql.png";
-import tours from "../images/Tours.png";
-import evansh from "../images/evansh.png";
+// import payroll from "../images/Payroll.png";
+// import plant from "../images/Plant.png";
+// import mysql from "../images/sql-to-nosql.png";
+// import tours from "../images/Tours.png";
+// import evansh from "../images/evansh.png";
 export const Bio = {
   name: "Daksh Khungla",
   roles: [
@@ -18,173 +18,176 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/dakshkhungla/",
   insta: "https://www.instagram.com/dakshkhungla/",
 };
-
 export const skills = [
-
-
-
   {
     title: "Backend",
     skills: [
-
+      {
+        name: "ASP.NET Framework",
+        image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png",
+        link: "https://dotnet.microsoft.com/en-us/apps/aspnet"
+      },
       {
         name: "Spring Framework",
-        image: "https://media.licdn.com/dms/image/D4D12AQEICFOK-z0akA/article-cover_image-shrink_720_1280/0/1656604745399?e=2147483647&v=beta&t=-Fjm5QYiJOJNzJ89xGv9VYPNxMNxqIX4jscMWXB6VaM",
+        image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+        link: "https://spring.io/"
+      },
+      {
+        name: "Django",
+        image: "https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg",
+        link: "https://www.djangoproject.com/"
+      },
+      {
+        name: "Express",
+        image: "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
+        link: "https://expressjs.com/"
       },
       {
         name: "Microservices",
-        image:
-          "https://t4.ftcdn.net/jpg/03/85/29/69/360_F_385296927_b9V4skbl94TzxL8AiVAMGdpp9hFeZat0.jpg",
+        image: "https://t4.ftcdn.net/jpg/03/85/29/69/360_F_385296927_b9V4skbl94TzxL8AiVAMGdpp9hFeZat0.jpg",
+        link: "https://microservices.io/"
       },
       {
         name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        link: "https://www.mysql.com/"
       },
-      {
-        name: "Apache Kafka",
-        image:
-          "https://w1.pngwing.com/pngs/489/830/png-transparent-linkedin-logo-big-data-user-profile-microsoft-access-apache-kafka-computer-management-apache-spark-thumbnail.png",
-      },
-
-      {
-        name: "Hibernate",
-        image:
-          "https://cdn.freebiesupply.com/logos/thumbs/2x/hibernate-logo.png",
-      },
-
-      {
-        name: "Apache Camel",
-        image:
-          "https://i.pinimg.com/originals/00/dc/03/00dc0377822a2698d1575e3cec6a9258.png",
-      },
-     
       {
         name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        link: "https://www.mongodb.com/"
       },
     ],
   },
-
-  // {
-  //   title: "SDE Designs",
-  //   skills: [
-  //     {
-  //       name: "System Design HLD",
-  //       image:
-  //         "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
-  //     },
-  //     {
-  //       name: "System Design LLD",
-  //       image:
-  //         "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
-  //     },
-  //     {
-  //       name: "Microservices Designs Patterns",
-  //       image:
-  //         "https://w1.pngwing.com/pngs/535/256/png-transparent-microservices-text-computer-software-line-circle-area-diagram-symmetry-organization-thumbnail.png",
-  //     },
-  //     {
-  //       name: "Coding Design Patterns",
-  //       image:
-  //         "https://w1.pngwing.com/pngs/561/274/png-transparent-cartoon-book-reactive-design-patterns-distributed-computing-computer-programming-system-programming-ebook-edition-application-software-computer-network-blue-thumbnail.png",
-  //     },
-  //   ],
-  // },
+  
+    {
+      title: "SDE Designs",
+      skills: [
+        {
+          name: "System Design HLD",
+          image: "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
+          link: "https://en.wikipedia.org/wiki/High-level_design"
+        },
+        {
+          name: "System Design LLD",
+          image: "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
+          link: "https://en.wikipedia.org/wiki/Low-level_design"
+        },
+        {
+          name: "Microservices Design Patterns",
+          image: "https://w1.pngwing.com/pngs/535/256/png-transparent-microservices-text-computer-software-line-circle-area-diagram-symmetry-organization-thumbnail.png",
+          link: "https://microservices.io/patterns/"
+        },
+        {
+          name: "Coding Design Patterns",
+          image: "https://w1.pngwing.com/pngs/561/274/png-transparent-cartoon-book-reactive-design-patterns-distributed-computing-computer-programming-system-programming-ebook-edition-application-software-computer-network-blue-thumbnail.png",
+          link: "https://refactoring.guru/design-patterns"
+        },
+      ],
+    },
 
   {
     title: "Frontend",
     skills: [
       {
         name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        link: "https://reactjs.org/"
       },
       {
         name: "Next Js",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+        image: "https://www.vectorlogo.zone/logos/nextjs/nextjs-icon.svg",
+        link: "https://nextjs.org/"
       },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
       },
       {
         name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
       },
       {
         name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       },
       {
         name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+        image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+        link: "https://getbootstrap.com/"
       },
     ],
   },
-
   {
     title: "Programming Languages",
     skills: [
       {
         name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        link: "https://www.java.com/"
       },
       {
         name: "C/C++",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png",
+        link: "https://isocpp.org/"
       },
       {
         name: "Python",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+        link: "https://www.python.org/"
       },
       {
         name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        name: "PHP",
+        image: "https://www.vectorlogo.zone/logos/php/php-icon.svg",
+        link: "https://www.php.net/"
+      },
+      {
+        name: "VB.NET",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/1200px-VB.NET_Logo.svg.png",
+        link: "https://dotnet.microsoft.com/en-us/languages/visual-basic"
+      },
+      {
+        name: "C#",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/1200px-C_Sharp_wordmark.svg.png",
+        link: "https://learn.microsoft.com/en-us/dotnet/csharp/"
       },
     ],
   },
-  
   {
     title: "Devops",
     skills: [
       {
         name: "Docker",
-        image:
-          "https://wiki.hornbill.com/images/7/70/Docker_logo.png",
+        image: "https://wiki.hornbill.com/images/7/70/Docker_logo.png",
+        link: "https://www.docker.com/"
       },
       {
         name: "Kubernetes",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
-      },
-      {
-        name: "Jfrog",
-        image: "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2022/05/jfrog.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
+        link: "https://kubernetes.io/"
       },
       {
         name: "AWS Cloud",
-        image:
-          "https://www.pngall.com/wp-content/uploads/13/AWS-Logo-PNG-File.png",
+        image: "https://www.pngall.com/wp-content/uploads/13/AWS-Logo-PNG-File.png",
+        link: "https://aws.amazon.com/"
       },
       {
         name: "Linux",
-        image:
-          "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
+        image: "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
+        link: "https://www.linux.org/"
       },
       {
         name: "Jenkins CI/CD",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png",
+        link: "https://www.jenkins.io/"
       },
     ],
   },
@@ -193,33 +196,33 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEkW5QVyzoVT_A8dA6aG4Y6mf_q64EjDpnpRxm49mvUg&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEkW5QVyzoVT_A8dA6aG4Y6mf_q64EjDpnpRxm49mvUg&s",
+        link: "https://git-scm.com/"
       },
       {
         name: "GitHub",
-        image:
-          "https://static-00.iconduck.com/assets.00/gitlab-icon-1024x942-f30d1qro.png",
+        image: "https://www.vectorlogo.zone/logos/github/github-icon.svg",
+        link: "https://github.com/"
       },
       {
         name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        link: "https://code.visualstudio.com/"
       },
       {
         name: "Postman",
-        image:
-          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+        image: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+        link: "https://www.postman.com/"
       },
       {
         name: "Intellij IDEA",
-        image:
-          "https://cdn.freebiesupply.com/logos/large/2x/intellij-idea-1-logo-svg-vector.svg",
+        image: "https://www.vectorlogo.zone/logos/jetbrains/jetbrains-icon.svg",
+        link: "https://www.jetbrains.com/idea/"
       },
       {
         name: "Sublime Text",
-        image:
-          "https://static-00.iconduck.com/assets.00/sublime-text-icon-1024x1024-h15zusdi.png",
+        image: "https://static-00.iconduck.com/assets.00/sublime-text-icon-1024x1024-h15zusdi.png",
+        link: "https://www.sublimetext.com/"
       },
     ],
   },
@@ -253,7 +256,7 @@ export const experiences = [
 
     {
     id: 0,
-    img: evansh,
+    img:"https://i.imgur.com/NZjVOh0.png",
     role: "SDE Intern",
     company: "Evansh Services",
     date: "Jun 2024 - Jul 2024",
@@ -317,7 +320,7 @@ export const projects = [
     "title": "MySQL to NoSQL Migration",
     "date": "Jan 2025 - Feb 2025",
     "description": "Developed a web application using React, Express, and CORS to automate the migration of MySQL databases to a NoSQL format. Designed features to preserve foreign key relationships and validate data integrity, significantly reducing manual efforts in database migration.",
-    "image": mysql,
+    "image": "https://i.imgur.com/Hm1vkeP.png",
     "tags": [
         "React",
         "Express",
@@ -335,7 +338,7 @@ export const projects = [
     date: "Jan 2023 - Mar 2023",
     description:
         "Developed a desktop application using VB.NET to automate salary management for 40+ employees. Adhered to government guidelines and generated 10+ reports, including salary slips, bank statements, and NPS/GPF lists. Significantly reduced manual processing time by 70%.",
-    image:payroll,
+    image:"https://i.imgur.com/h77cePj.png",
     tags: [
         "VB.NET",
         "Desktop Application",
@@ -352,7 +355,7 @@ export const projects = [
     date: "Apr 2023 - Jun 2023",
     description:
         "Created a dynamic web application using ASP.NET, JavaScript, and Bootstrap for a local client. Integrated a payment gateway and Google authorization for secure and efficient transactions. Provided service for 500+ users, resulting in a 25% increase in customer satisfaction.",
-    image:tours,   
+    image:"https://i.imgur.com/ae7Zg6u.png",   
     tags: [
         "ASP.NET",
         "JavaScript",
@@ -370,7 +373,7 @@ export const projects = [
   date: "Jul 2023 - Sep 2023",
   description:
       "Developed a web application to collect data for plant disease identification. Dynamically fetched location data and stored plant information, which was further utilized for machine learning analysis. The project was built in ASP.NET and VB.NET, integrating real-time weather api to fetch the loaction and temperature.",
-  image:plant,
+  image:"https://i.imgur.com/OREjO1R.png",
  tags: [
       "ASP.NET",
       "VB.NET",
