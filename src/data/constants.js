@@ -298,7 +298,7 @@ export const education = [
     img: "https://www.bvmengineering.ac.in/assets/images/bvm-logo-gold.png",
     school: "Birla Vishvakarma Mahavidhyalay",
     date: "Sep 2023 - May 2026",
-    grade:"8.50 CGPA",
+    grade:"8.42 CPI",
     desc: "I have currently pursuing my graducation in Bachelor's degree in Information Technology.I am an entusiastic learner and always ready to learn new things.",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
