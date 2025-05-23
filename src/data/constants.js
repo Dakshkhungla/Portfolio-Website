@@ -1,8 +1,3 @@
-// import payroll from "../images/Payroll.png";
-// import plant from "../images/Plant.png";
-// import mysql from "../images/sql-to-nosql.png";
-// import tours from "../images/Tours.png";
-// import evansh from "../images/evansh.png";
 export const Bio = {
   name: "Daksh Khungla",
   roles: [
@@ -12,9 +7,9 @@ export const Bio = {
     "PHP Developer",
   ],
   description:
-    "I'm a CSE student with experience in backend development, DevOps, and a growing interest in AI, ML, and Data Science. I’ve completed 5+ freelance projects and am focused on expanding my skills in backend technologies while exploring AI and ML to build innovative solutions.",
+ "I'm an IT Engineering student with hands-on experience in backend development and DevOps, and a growing interest in Data Engineering and Cloud technologies. I've delivered 4+ freelance projects, and I'm passionate about building scalable, efficient systems while continuously exploring new tools and architectures to solve real-world problems.",
   github: "https://github.com/Dakshkhungla",
-  resume: "https://drive.google.com/file/d/1Qt5Q0_x0os80SIV6zoM8phKSnZpRtEXc/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1btv9gZKFn5bU5NEq2ntdnwAhEKnJw16T/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dakshkhungla/",
   insta: "https://www.instagram.com/dakshkhungla/",
 };
@@ -60,32 +55,6 @@ export const skills = [
     ],
   },
   
-    {
-      title: "SDE Designs",
-      skills: [
-        {
-          name: "System Design HLD",
-          image: "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
-          link: "https://en.wikipedia.org/wiki/High-level_design"
-        },
-        {
-          name: "System Design LLD",
-          image: "https://cdn.iconscout.com/icon/premium/png-256-thumb/system-design-5347949-4460888.png",
-          link: "https://en.wikipedia.org/wiki/Low-level_design"
-        },
-        {
-          name: "Microservices Design Patterns",
-          image: "https://w1.pngwing.com/pngs/535/256/png-transparent-microservices-text-computer-software-line-circle-area-diagram-symmetry-organization-thumbnail.png",
-          link: "https://microservices.io/patterns/"
-        },
-        {
-          name: "Coding Design Patterns",
-          image: "https://w1.pngwing.com/pngs/561/274/png-transparent-cartoon-book-reactive-design-patterns-distributed-computing-computer-programming-system-programming-ebook-edition-application-software-computer-network-blue-thumbnail.png",
-          link: "https://refactoring.guru/design-patterns"
-        },
-      ],
-    },
-
   {
     title: "Frontend",
     skills: [
@@ -93,11 +62,6 @@ export const skills = [
         name: "React Js",
         image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         link: "https://reactjs.org/"
-      },
-      {
-        name: "Next Js",
-        image: "https://www.vectorlogo.zone/logos/nextjs/nextjs-icon.svg",
-        link: "https://nextjs.org/"
       },
       {
         name: "HTML",
@@ -230,25 +194,10 @@ export const skills = [
 
 export const certifications = [
   {
-      name: "Certified Kubernetes Administrator (CKA)",
-      issuedDate: "May 2023",
-      verifyLink: "https://www.example.com/verify/cka",
+    name: "The Complete Jenkins DevOps CI/CD Bootcamp - Udemy",
+    issuedDate: "April 2025", 
+    verifyLink: "https://www.udemy.com/certificate/UC-5acddc96-0ed8-4264-99ce-3f51cd4c4590/",
   },
-  {
-      name: "AWS Certified Solutions Architect – Associate",
-      issuedDate: "August 2022",
-      verifyLink: "https://www.example.com/verify/aws",
-  },
-  {
-      name: "Google Data Analytics Professional Certificate",
-      issuedDate: "January 2024",
-      verifyLink: "https://www.example.com/verify/google",
-  },
-  {
-    name: "Google Data Analytics Professional Certificate",
-    issuedDate: "January 2024",
-    verifyLink: "https://www.example.com/verify/google",
-},
 ];
 
 
@@ -316,22 +265,49 @@ export const education = [
 
 export const projects = [
   {
-    "id": 5,
-    "title": "MySQL to NoSQL Migration",
-    "date": "Jan 2025 - Feb 2025",
-    "description": "Developed a web application using React, Express, and CORS to automate the migration of MySQL databases to a NoSQL format. Designed features to preserve foreign key relationships and validate data integrity, significantly reducing manual efforts in database migration.",
-    "image": "https://i.imgur.com/Hm1vkeP.png",
-    "tags": [
-        "React",
-        "Express",
-        "CORS",
-        "Database Migration",
-        "Web Application",
-        "Automation"
-    ],
-    "category": "web app",
-    "github":"https://github.com/Dakshkhungla/MySQL-to-NoSQL",
-},
+  "id": 5,
+  "title": "MySQL to NoSQL Converter",
+  "date": "Jan 2025 - Feb 2025",
+  "description": "Designed and deployed a Node.js web app to automate SQL to MongoDB conversions, improving data accessibility and migration efficiency for 5+ teams. Preserved foreign key relationships by converting them to MongoDB-compatible references, ensuring data integrity. Integrated Jenkins for CI/CD with Docker builds and deployments to DockerHub, cutting deployment time by 50%. Implemented Trivy and SonarQube scans with automated reporting to enhance code quality and security.",
+  "image": "https://i.imgur.com/Hm1vkeP.png",
+  "tags": [
+    "Node.js",
+    "Docker",
+    "MongoDB",
+    "DevOps",
+    "CI/CD",
+    "Jenkins",
+    "Trivy",
+    "SonarQube",
+    "Database Migration",
+    "Automation"
+  ],
+  "category": "web app",
+  "github": "https://github.com/Dakshkhungla/MySQL-to-NoSQL"
+}
+,
+{
+  "id": 6,
+  "title": "TrackMyLogs – Log Monitoring Tool",
+  "date": "Mar 2025 - Apr 2025",
+  "description": "Built a real-time Windows log monitoring tool using a Python Tkinter client and Django backend for centralized analysis. Implemented Redis caching for fast log storage and retrieval during peak loads. Designed a cross-platform Progressive Web App (PWA) for seamless access across devices. Automated Docker builds and deployments via Jenkins, ensuring continuous delivery. Integrated email reporting of log summaries to enable proactive system monitoring.",
+  "image": "https://i.redd.it/q7dukktz1h2f1.png",
+  "tags": [
+    "Python",
+    "Django",
+    "Redis",
+    "PWA",
+    "Tkinter",
+    "Docker",
+    "Jenkins",
+    "CI/CD",
+    "Log Monitoring",
+    "Automation"
+  ],
+  "category": "desktop + web app",
+  "github": "https://github.com/Dakshkhungla/TrackMyLogs-Devops"
+}
+,
   {
     id: 5,
     title: "Payroll Management System",
