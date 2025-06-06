@@ -5,11 +5,12 @@ export const Bio = {
     ".Net Developer",
     "Devops Engineer",
     "PHP Developer",
+    "Java Developer",
   ],
   description:
  "I'm an IT Engineering student with hands-on experience in backend development and DevOps, and a growing interest in Data Engineering and Cloud technologies. I've delivered 4+ freelance projects, and I'm passionate about building scalable, efficient systems while continuously exploring new tools and architectures to solve real-world problems.",
   github: "https://github.com/Dakshkhungla",
-  resume: "https://drive.google.com/file/d/1btv9gZKFn5bU5NEq2ntdnwAhEKnJw16T/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1wE7bqtLN5AihT4zqf3Znpx7ed0dULtct/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dakshkhungla/",
   insta: "https://www.instagram.com/dakshkhungla/",
 };
@@ -202,7 +203,22 @@ export const certifications = [
 
 
 export const experiences = [
-
+  {
+  id: 1,
+  img: "https://thepathik.in/wp-content/uploads/2023/08/Artboard-1.png",
+  role: "DevOps Intern",
+  company: "Pathik Designs",
+  date: "May 2025",
+  location: "Ahmedabad, India",
+  desc: "Worked on real-world DevOps workflows including CI/CD setup, Docker containerization, vulnerability scanning, and version control. Gained hands-on experience with key tools and cloud deployment concepts.",
+  skills: [
+    "Jenkins",
+    "Docker",
+    "Trivy",
+    "Git",
+    "AWS (EC2, IAM)"
+  ]
+},
     {
     id: 0,
     img:"https://i.imgur.com/NZjVOh0.png",
