@@ -10,7 +10,7 @@ export const Bio = {
   description:
  "I'm an IT Engineering student with hands-on experience in backend development and DevOps, and a growing interest in Data Engineering and Cloud technologies. I've delivered 4+ freelance projects, and I'm passionate about building scalable, efficient systems while continuously exploring new tools and architectures to solve real-world problems.",
   github: "https://github.com/Dakshkhungla",
-  resume: "https://drive.google.com/file/d/1wE7bqtLN5AihT4zqf3Znpx7ed0dULtct/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1_88zzHACR4zq76cBQpoo4GY1GsB1BHvj/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dakshkhungla/",
   insta: "https://www.instagram.com/dakshkhungla/",
 };
@@ -24,7 +24,7 @@ export const skills = [
         link: "https://dotnet.microsoft.com/en-us/apps/aspnet"
       },
       {
-        name: "Spring Framework",
+        name: "SpringBoot Framework",
         image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
         link: "https://spring.io/"
       },
@@ -199,7 +199,18 @@ export const certifications = [
     issuedDate: "April 2025", 
     verifyLink: "https://www.udemy.com/certificate/UC-5acddc96-0ed8-4264-99ce-3f51cd4c4590/",
   },
+  {
+    name: "Java Spring Framework 6 with Spring Boot 3 - Udemy",
+    issuedDate: "June 2025",
+    verifyLink: "https://www.udemy.com/certificate/UC-d5fe3d86-f604-44d8-906d-8fc24fe7c765/",
+  },
+  {
+    name: "AWS Cloud Fundamentals – GeeksforGeeks",
+    issuedDate: "June 2025",
+    verifyLink: "https://media.geeksforgeeks.org/courses/certificates/f9853059764d724a2c10c313406d47d7.pdf",
+  },
 ];
+
 
 
 export const experiences = [
