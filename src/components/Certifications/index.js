@@ -88,11 +88,14 @@ const VerifyLink = styled.a`
 `;
 
 const colorPalette = [
-    '#F8F9FA', // Soft White - minimalistic
-    '#EDE7F6', // Lavender Gray - elegant
-    '#F9E1D6', // Peach Blush - subtle warmth
-    '#E9F7EF', // Soft Green - refreshing and professional
+  '#f0f4f8', // Soft light gray-blue
+  '#e8f0fe', // Very light blue
+  '#fffbea', // Soft cream yellow
+  '#e6fffa', // Soft mint green
 ];
+
+
+
 
 
 

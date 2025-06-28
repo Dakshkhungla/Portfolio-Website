@@ -51,7 +51,25 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            <a
+  href={Bio.github}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Visit Daksh Khungla's GitHub profile"
+  style={{
+    padding: '10px 16px',
+    background: `${theme.primary}`,
+    color: 'white',
+    width: 'max-content',
+    textDecoration: 'none',
+    borderRadius: '5px',
+    display: 'inline-block',
+    fontWeight: 'bold',
+  }}
+>
+  GitHub Profile
+</a>
+
           </MobileMenu>
         }
       </NavbarContainer>
