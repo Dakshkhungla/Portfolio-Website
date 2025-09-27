@@ -3,6 +3,7 @@ import GithubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
+import { GitHubButton } from '../Navbar/NavbarStyledComponent';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -100,6 +101,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
+        <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
         <Copyright>
           &copy; {new Date().getFullYear()} Daksh Khungla. All rights reserved.
         </Copyright>

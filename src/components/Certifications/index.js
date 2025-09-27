@@ -51,33 +51,44 @@ const CertificationBox = styled.div`
     display: flex;
     flex-direction: column;
     gap: 12px;
-    background: ${({ color }) => color};
-    border-radius: 12px;
-    padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    background: ${({ theme }) => theme.card};
+    border: 0.1px solid #854CE6;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 36px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     &:hover {
         transform: translateY(-5px);
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     }
+
+    @media (max-width: 768px) {
+        max-width: 400px;
+        padding: 10px 36px;
+    }
+    @media (max-width: 500px) {
+        max-width: 330px;
+        padding: 10px 36px;
+    }
 `;
 
 const CertificationTitle = styled.div`
     font-size: 24px;
     font-weight: bold;
-    color: #333333; /* Dark text for contrast */
+    color: ${({ theme }) => theme.text_primary};
 `;
 
 const CertificationDetails = styled.div`
     font-size: 16px;
-    color: #555555;
+    color: ${({ theme }) => theme.text_secondary};
 `;
 
 const VerifyLink = styled.a`
     font-size: 16px;
-    color: #007BFF; /* Blue for links */
+    color: ${({ theme }) => theme.primary};
     text-decoration: none;
     font-weight: 600;
     margin-top: 8px;
@@ -86,20 +97,6 @@ const VerifyLink = styled.a`
         text-decoration: underline;
     }
 `;
-
-const colorPalette = [
-  '#f0f4f8', // Soft light gray-blue
-  '#e8f0fe', // Very light blue
-  '#fffbea', // Soft cream yellow
-  '#e6fffa', // Soft mint green
-];
-
-
-
-
-
-
-
 
 const Certifications = () => {
     return (
@@ -111,7 +108,7 @@ const Certifications = () => {
                 </Desc>
                 <Grid>
                     {certifications.map((certification, index) => (
-                        <CertificationBox key={index} color={colorPalette[index % colorPalette.length]}>
+                        <CertificationBox key={index}>
                             <CertificationTitle>{certification.name}</CertificationTitle>
                             <CertificationDetails>Issued Date: {certification.issuedDate}</CertificationDetails>
                             <VerifyLink href={certification.verifyLink} target="_blank" rel="noopener noreferrer">

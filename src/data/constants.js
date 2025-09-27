@@ -19,14 +19,14 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "ASP.NET Framework",
-        image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png",
-        link: "https://dotnet.microsoft.com/en-us/apps/aspnet"
-      },
-      {
         name: "SpringBoot Framework",
         image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
         link: "https://spring.io/"
+      },
+      {
+        name: "ASP.NET Framework",
+        image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png",
+        link: "https://dotnet.microsoft.com/en-us/apps/aspnet"
       },
       {
         name: "Django",
@@ -274,7 +274,7 @@ export const education = [
     img: "https://www.bvmengineering.ac.in/assets/images/bvm-logo-gold.png",
     school: "Birla Vishvakarma Mahavidhyalay",
     date: "Sep 2023 - May 2026",
-    grade:"8.42 CPI",
+    grade:"8.26 CPI",
     desc: "I have currently pursuing my graducation in Bachelor's degree in Information Technology.I am an entusiastic learner and always ready to learn new things.",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
