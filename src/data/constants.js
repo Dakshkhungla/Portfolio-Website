@@ -1,14 +1,13 @@
 export const Bio = {
   name: "Daksh Khungla",
   roles: [
+    "Java Full Stack Developer",
     "Backend Developer",
     ".Net Developer",
     "Devops Engineer",
-    "PHP Developer",
-    "Java Developer",
   ],
   description:
- "I'm an IT Engineering student with hands-on experience in backend development and DevOps, and a growing interest in Data Engineering and Cloud technologies. I've delivered 4+ freelance projects, and I'm passionate about building scalable, efficient systems while continuously exploring new tools and architectures to solve real-world problems.",
+    "I'm an Java Full Stack Developer with hands-on experience in backend development and DevOps, and a growing interest in Data Engineering and Cloud technologies. I've delivered 6+ freelance projects, and I'm passionate about building scalable, efficient systems while continuously exploring new tools and architectures to solve real-world problems.",
   github: "https://github.com/Dakshkhungla",
   resume: "https://drive.google.com/file/d/1_88zzHACR4zq76cBQpoo4GY1GsB1BHvj/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dakshkhungla/",
@@ -55,7 +54,7 @@ export const skills = [
       },
     ],
   },
-  
+
   {
     title: "Frontend",
     skills: [
@@ -196,7 +195,7 @@ export const skills = [
 export const certifications = [
   {
     name: "The Complete Jenkins DevOps CI/CD Bootcamp - Udemy",
-    issuedDate: "April 2025", 
+    issuedDate: "April 2025",
     verifyLink: "https://www.udemy.com/certificate/UC-5acddc96-0ed8-4264-99ce-3f51cd4c4590/",
   },
   {
@@ -215,30 +214,45 @@ export const certifications = [
 
 export const experiences = [
   {
-  id: 1,
-  img: "https://thepathik.in/wp-content/uploads/2023/08/Artboard-1.png",
-  role: "DevOps Intern",
-  company: "Pathik Designs",
-  date: "May 2025",
-  location: "Ahmedabad, India",
-  desc: "Worked on real-world DevOps workflows including CI/CD setup, Docker containerization, vulnerability scanning, and version control. Gained hands-on experience with key tools and cloud deployment concepts.",
-  skills: [
-    "Jenkins",
-    "Docker",
-    "Trivy",
-    "Git",
-    "AWS (EC2, IAM)"
-  ]
-},
-    {
-    id: 0,
-    img:"https://i.imgur.com/NZjVOh0.png",
+    id: 3,
+    img: "https://www.njgroup.in/img/slider-logo.jpg",
+    role: "Full Stack Java Developer",
+    company: "NJ Group",
+    date: "Jan 2026-Present",
+    location: "Surat, India",
+    desc: "Working on a National Stock Exchange (NSE) Mutual Fund Project, building and maintaining scalable backend services using Spring Boot, Spring MVC, and Microservices architecture. Contributing to end-to-end development with Java and Git-based version control in a collaborative team environment.",
+    skills: [
+      "Spring Boot",
+      "Spring MVC",
+      "Java",
+      "Microservices",
+      "Git"
+    ]
+  }, {
+    id: 2,
+    img: "https://lh3.googleusercontent.com/p/AF1QipPfvwpiJ4URifkcMEviS581lYyKK8iAqnaPW35R=s1360-w1360-h1020-rw",
+    role: "DevOps Intern",
+    company: "Pathik Designs",
+    date: "May 2025",
+    location: "Ahmedabad, India",
+    desc: "Worked on real-world DevOps workflows including CI/CD setup, Docker containerization, vulnerability scanning, and version control. Gained hands-on experience with key tools and cloud deployment concepts.",
+    skills: [
+      "Jenkins",
+      "Docker",
+      "Trivy",
+      "Git",
+      "AWS (EC2, IAM)"
+    ]
+  },
+  {
+    id: 1,
+    img: "https://i.imgur.com/NZjVOh0.png",
     role: "SDE Intern",
     company: "Evansh Services",
     date: "Jun 2024 - Jul 2024",
     location: "Gandhidham, India",
     desc: "Led the creation of a dynamic web-based portal, managing a team of 4 developers, coordinating with stakeholders to ensure 100% on-time delivery and quality assurance.",
-      skills: [
+    skills: [
       "ASP.Net",
       "Ajax",
       "Javascript",
@@ -247,24 +261,24 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
-    img:"https://logowik.com/content/uploads/images/freelancer.jpg",
-  role: "Freelancer",
-  company: "Self-Employed",
-  date: "Jan 2023 - Present",
-  location: "Remote",
-  desc: "Worked on real-life problem-solving projects, contributing to impactful software solutions as part of a team.",
-  achievements: [
-    "Collaborated with diverse teams to deliver scalable and efficient solutions.",
-    "Successfully met all project deadlines, maintaining quality and client satisfaction."
-  ],
-  skills: [
-    "Problem-Solving",
-    "Software Development",
-    "Team Collaboration",
-    "Project Management"
-  ]
-  }, 
+    id: 0,
+    img: "https://logowik.com/content/uploads/images/freelancer.jpg",
+    role: "Freelancer",
+    company: "Self-Employed",
+    date: "Jan 2023 - Present",
+    location: "Remote",
+    desc: "Worked on real-life problem-solving projects, contributing to impactful software solutions as part of a team.",
+    achievements: [
+      "Collaborated with diverse teams to deliver scalable and efficient solutions.",
+      "Successfully met all project deadlines, maintaining quality and client satisfaction."
+    ],
+    skills: [
+      "Problem-Solving",
+      "Software Development",
+      "Team Collaboration",
+      "Project Management"
+    ]
+  },
 ];
 
 export const education = [
@@ -274,7 +288,7 @@ export const education = [
     img: "https://www.bvmengineering.ac.in/assets/images/bvm-logo-gold.png",
     school: "Birla Vishvakarma Mahavidhyalay",
     date: "Sep 2023 - May 2026",
-    grade:"8.26 CPI",
+    grade: "8.26 CPI",
     desc: "I have currently pursuing my graducation in Bachelor's degree in Information Technology.I am an entusiastic learner and always ready to learn new things.",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
@@ -292,92 +306,126 @@ export const education = [
 
 export const projects = [
   {
-  "id": 5,
-  "title": "MySQL to NoSQL Converter",
-  "date": "Jan 2025 - Feb 2025",
-  "description": "Designed and deployed a Node.js web app to automate SQL to MongoDB conversions, improving data accessibility and migration efficiency for 5+ teams. Preserved foreign key relationships by converting them to MongoDB-compatible references, ensuring data integrity. Integrated Jenkins for CI/CD with Docker builds and deployments to DockerHub, cutting deployment time by 50%. Implemented Trivy and SonarQube scans with automated reporting to enhance code quality and security.",
-  "image": "https://i.imgur.com/Hm1vkeP.png",
-  "tags": [
-    "Node.js",
-    "Docker",
-    "MongoDB",
-    "DevOps",
-    "CI/CD",
-    "Jenkins",
-    "Trivy",
-    "SonarQube",
-    "Database Migration",
-    "Automation"
-  ],
-  "category": "web app",
-  "github": "https://github.com/Dakshkhungla/MySQL-to-NoSQL"
-}
-,
-{
-  "id": 6,
-  "title": "TrackMyLogs – Log Monitoring Tool",
-  "date": "Mar 2025 - Apr 2025",
-  "description": "Built a real-time Windows log monitoring tool using a Python Tkinter client and Django backend for centralized analysis. Implemented Redis caching for fast log storage and retrieval during peak loads. Designed a cross-platform Progressive Web App (PWA) for seamless access across devices. Automated Docker builds and deployments via Jenkins, ensuring continuous delivery. Integrated email reporting of log summaries to enable proactive system monitoring.",
-  "image": "https://i.redd.it/q7dukktz1h2f1.png",
-  "tags": [
-    "Python",
-    "Django",
-    "Redis",
-    "PWA",
-    "Tkinter",
-    "Docker",
-    "Jenkins",
-    "CI/CD",
-    "Log Monitoring",
-    "Automation"
-  ],
-  "category": "desktop + web app",
-  "github": "https://github.com/Dakshkhungla/TrackMyLogs-Devops"
-}
-,
+    id: 0,
+    title: "Decertify – Blockchain Certificate Verification",
+    date: "2025",
+    description:
+      "Built a blockchain-based certificate verification platform for organizations, admins, and students. Organizations can issue degree certificates through the blockchain, students can verify their certificates instantly, and admins can manage organizations. Won the Best Project Award at BVM College.",
+    image: "https://ik.imagekit.io/0bryqk40d/Portfolio/decertify?updatedAt=1770996852685",
+    tags: [
+      "Next.js",
+      "Blockchain",
+      "Certificate Verification",
+      "Admin Panel",
+      "Best Project Award"
+    ],
+    category: "web app",
+    webapp: "https://educertchain.vercel.app/"
+  },
   {
-    id: 5,
+    id: 1,
+    title: "Trackify – Email Tracking System",
+    date: "2025",
+    description:
+      "Developed a comprehensive email tracking system comprising a Chrome Extension, a React web app, and a Spring Boot backend. Users send emails like a normal Gmail account, and the system tracks whether the recipient has opened the mail. Upon opening, the sender gets notified, and all tracking activity is visible directly in Gmail. It also discovers other tracking emails if present.",
+    image: "https://ik.imagekit.io/0bryqk40d/Portfolio/trackify?updatedAt=1770996852685",
+    tags: [
+      "React",
+      "Spring Boot",
+      "Chrome Extension",
+      "Email Tracking",
+      "Gmail Integration"
+    ],
+    category: "web app",
+    webapp: "https://trackifymail.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "MySQL to NoSQL Converter",
+    "date": "Jan 2025 - Feb 2025",
+    "description": "Designed and deployed a Node.js web app to automate SQL to MongoDB conversions, improving data accessibility and migration efficiency for 5+ teams. Preserved foreign key relationships by converting them to MongoDB-compatible references, ensuring data integrity. Integrated Jenkins for CI/CD with Docker builds and deployments to DockerHub, cutting deployment time by 50%. Implemented Trivy and SonarQube scans with automated reporting to enhance code quality and security.",
+    "image": "https://i.imgur.com/Hm1vkeP.png",
+    "tags": [
+      "Node.js",
+      "Docker",
+      "MongoDB",
+      "DevOps",
+      "CI/CD",
+      "Jenkins",
+      "Trivy",
+      "SonarQube",
+      "Database Migration",
+      "Automation"
+    ],
+    "category": "web app",
+    "github": "https://github.com/Dakshkhungla/MySQL-to-NoSQL"
+  }
+  ,
+  {
+    "id": 3,
+    "title": "TrackMyLogs – Log Monitoring Tool",
+    "date": "Mar 2025 - Apr 2025",
+    "description": "Built a real-time Windows log monitoring tool using a Python Tkinter client and Django backend for centralized analysis. Implemented Redis caching for fast log storage and retrieval during peak loads. Designed a cross-platform Progressive Web App (PWA) for seamless access across devices. Automated Docker builds and deployments via Jenkins, ensuring continuous delivery. Integrated email reporting of log summaries to enable proactive system monitoring.",
+    "image": "https://i.redd.it/q7dukktz1h2f1.png",
+    "tags": [
+      "Python",
+      "Django",
+      "Redis",
+      "PWA",
+      "Tkinter",
+      "Docker",
+      "Jenkins",
+      "CI/CD",
+      "Log Monitoring",
+      "Automation"
+    ],
+    "category": "desktop + web app",
+    "github": "https://github.com/Dakshkhungla/TrackMyLogs-Devops"
+  }
+  ,
+  {
+    id: 4,
     title: "Payroll Management System",
     date: "Jan 2023 - Mar 2023",
     description:
-        "Developed a desktop application using VB.NET to automate salary management for 40+ employees. Adhered to government guidelines and generated 10+ reports, including salary slips, bank statements, and NPS/GPF lists. Significantly reduced manual processing time by 70%.",
-    image:"https://i.imgur.com/h77cePj.png",
+      "Developed a desktop application using VB.NET to automate salary management for 40+ employees. Adhered to government guidelines and generated 10+ reports, including salary slips, bank statements, and NPS/GPF lists. Significantly reduced manual processing time by 70%.",
+    image: "https://i.imgur.com/h77cePj.png",
     tags: [
-        "VB.NET",
-        "Desktop Application",
-        "Salary Management",
-        "Reporting",
-        "Automation",
-        "FreeLance Project"
+      "VB.NET",
+      "Desktop Application",
+      "Salary Management",
+      "Reporting",
+      "Automation",
+      "FreeLance Project"
     ],
     category: "desktop app",
-},
-{
-    id: 6,
+  },
+  {
+    id: 5,
     title: "Ganesh Tours and Travels",
     date: "Apr 2023 - Jun 2023",
     description:
-        "Created a dynamic web application using ASP.NET, JavaScript, and Bootstrap for a local client. Integrated a payment gateway and Google authorization for secure and efficient transactions. Provided service for 500+ users, resulting in a 25% increase in customer satisfaction.",
-    image:"https://i.imgur.com/ae7Zg6u.png",   
+      "Created a dynamic web application using ASP.NET, JavaScript, and Bootstrap for a local client. Integrated a payment gateway and Google authorization for secure and efficient transactions. Provided service for 500+ users, resulting in a 25% increase in customer satisfaction.",
+    image: "https://i.imgur.com/ae7Zg6u.png",
     tags: [
-        "ASP.NET",
-        "JavaScript",
-        "Bootstrap",
-        "Payment Gateway",
-        "Google Authorization",
-        "FreeLance Project"
+      "ASP.NET",
+      "JavaScript",
+      "Bootstrap",
+      "Payment Gateway",
+      "Google Authorization",
+      "FreeLance Project"
     ],
     category: "web app",
-//     github: "https://github.com/YourUsername/Ganesh-Tours-And-Travels"
- },
-{
-  id: 7,
-  title: "Plant Disease Identification System",
-  date: "Jul 2023 - Sep 2023",
-  description:
+    //     github: "https://github.com/YourUsername/Ganesh-Tours-And-Travels"
+  },
+  {
+    id: 6,
+    title: "Plant Disease Identification System",
+    date: "Jul 2023 - Sep 2023",
+    description:
       "Developed a web application to collect data for plant disease identification. Dynamically fetched location data and stored plant information, which was further utilized for machine learning analysis. The project was built in ASP.NET and VB.NET, integrating real-time weather api to fetch the loaction and temperature.",
-  image:"https://i.imgur.com/OREjO1R.png",
- tags: [
+    image: "https://i.imgur.com/OREjO1R.png",
+    tags: [
       "ASP.NET",
       "VB.NET",
       "Weather API",
@@ -385,10 +433,10 @@ export const projects = [
       "Plant Disease Prediction",
       "Data Collection",
       "FreeLance Project"
-  ],
-  category: "web app",
-  // github: "https://github.com/YourUsername/Plant-Disease-Identification-System"
-}
+    ],
+    category: "web app",
+    // github: "https://github.com/YourUsername/Plant-Disease-Identification-System"
+  }
 ];
 
 export const TimeLineData = [
