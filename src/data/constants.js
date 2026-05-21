@@ -33,11 +33,6 @@ export const skills = [
         link: "https://www.djangoproject.com/"
       },
       {
-        name: "Express",
-        image: "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
-        link: "https://expressjs.com/"
-      },
-      {
         name: "Microservices",
         image: "https://t4.ftcdn.net/jpg/03/85/29/69/360_F_385296927_b9V4skbl94TzxL8AiVAMGdpp9hFeZat0.jpg",
         link: "https://microservices.io/"
@@ -70,12 +65,12 @@ export const skills = [
       },
       {
         name: "CSS",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1280px-CSS3_logo.svg.png",
         link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
       },
       {
         name: "JavaScript",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png?_=20120221235433",
         link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       },
       {
@@ -100,7 +95,7 @@ export const skills = [
       },
       {
         name: "Python",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/960px-Python-logo-notext.svg.png",
         link: "https://www.python.org/"
       },
       {
@@ -115,12 +110,12 @@ export const skills = [
       },
       {
         name: "VB.NET",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/1200px-VB.NET_Logo.svg.png",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpmtvNkaseCh2P_7k5sT_igv-E7VYx9jGA7A&s",
         link: "https://dotnet.microsoft.com/en-us/languages/visual-basic"
       },
       {
         name: "C#",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/1200px-C_Sharp_wordmark.svg.png",
+        image: "https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo.png",
         link: "https://learn.microsoft.com/en-us/dotnet/csharp/"
       },
     ],
@@ -130,12 +125,12 @@ export const skills = [
     skills: [
       {
         name: "Docker",
-        image: "https://wiki.hornbill.com/images/7/70/Docker_logo.png",
+        image: "https://bunnyacademy.b-cdn.net/what-is-docker.png",
         link: "https://www.docker.com/"
       },
       {
         name: "Kubernetes",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
+        image: "https://platform9.com/media/download.svg",
         link: "https://kubernetes.io/"
       },
       {
@@ -145,12 +140,12 @@ export const skills = [
       },
       {
         name: "Linux",
-        image: "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
+        image: "https://bloximages.newyork1.vip.townnews.com/redandblack.com/content/tncms/assets/v3/editorial/4/59/45940eb2-5403-11e9-a843-db0e4491cc90/5ca13d8453042.image.jpg",
         link: "https://www.linux.org/"
       },
       {
         name: "Jenkins CI/CD",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png",
+        image: "https://www.jenkins.io/images/logos/jenkins/jenkins.svg",
         link: "https://www.jenkins.io/"
       },
     ],
@@ -170,7 +165,7 @@ export const skills = [
       },
       {
         name: "VS Code",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        image: "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxj7kCzMIlSC20SNjaJf9GmESvWFqgy6FNrwzWSIu2lzePyWSz8zg09RAX43OFexidzEE3_7l3auaKk4w9ktJdqg-&format=source&h=307",
         link: "https://code.visualstudio.com/"
       },
       {
@@ -182,12 +177,7 @@ export const skills = [
         name: "Intellij IDEA",
         image: "https://www.vectorlogo.zone/logos/jetbrains/jetbrains-icon.svg",
         link: "https://www.jetbrains.com/idea/"
-      },
-      {
-        name: "Sublime Text",
-        image: "https://static-00.iconduck.com/assets.00/sublime-text-icon-1024x1024-h15zusdi.png",
-        link: "https://www.sublimetext.com/"
-      },
+      }
     ],
   },
 ];
@@ -215,12 +205,12 @@ export const certifications = [
 export const experiences = [
   {
     id: 3,
-    img: "https://www.njgroup.in/img/slider-logo.jpg",
+    img: "https://media.licdn.com/dms/image/v2/C4E0BAQHEOut8GX5vKQ/company-logo_200_200/company-logo_200_200/0/1630595985788/nj_group_logo?e=2147483647&v=beta&t=boZuzzpbDn5OEfYNVb8mZVz3D0xSCB-IHmFrEZHsTBo",
     role: "Full Stack Java Developer",
     company: "NJ Group",
     date: "Jan 2026-Present",
     location: "Surat, India",
-    desc: "Working on a National Stock Exchange (NSE) Mutual Fund Project, building and maintaining scalable backend services using Spring Boot, Spring MVC, and Microservices architecture. Contributing to end-to-end development with Java and Git-based version control in a collaborative team environment.",
+    desc: "Working on a National Stock Exchange (NSE) Mutual Fund Project, building and maintaining scalable backend services using Spring Boot, Spring MVC, and Microservices architecture.",
     skills: [
       "Spring Boot",
       "Spring MVC",
