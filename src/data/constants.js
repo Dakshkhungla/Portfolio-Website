@@ -9,7 +9,7 @@ export const Bio = {
   description:
     "I'm an Java Full Stack Developer with hands-on experience in backend development and DevOps, and a growing interest in Data Engineering and Cloud technologies. I've delivered 6+ freelance projects, and I'm passionate about building scalable, efficient systems while continuously exploring new tools and architectures to solve real-world problems.",
   github: "https://github.com/Dakshkhungla",
-  resume: "https://drive.google.com/file/d/1_88zzHACR4zq76cBQpoo4GY1GsB1BHvj/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1PosB0XenVDdBwkgZERWT9NkK7RHxYjPD/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/dakshkhungla/",
   insta: "https://www.instagram.com/dakshkhungla/",
 };
@@ -278,7 +278,7 @@ export const education = [
     img: "https://www.bvmengineering.ac.in/assets/images/bvm-logo-gold.png",
     school: "Birla Vishvakarma Mahavidhyalay",
     date: "Sep 2023 - May 2026",
-    grade: "8.26 CPI",
+    grade: "8.51 CPI",
     desc: "I have currently pursuing my graducation in Bachelor's degree in Information Technology.I am an entusiastic learner and always ready to learn new things.",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
