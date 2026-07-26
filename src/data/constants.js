@@ -9,7 +9,7 @@ export const Bio = {
   description:
     "I'm an Java Full Stack Developer with hands-on experience in backend development and DevOps, and a growing interest in Data Engineering and Cloud technologies. I've delivered 6+ freelance projects, and I'm passionate about building scalable, efficient systems while continuously exploring new tools and architectures to solve real-world problems.",
   github: "https://github.com/Dakshkhungla",
-  resume: "https://drive.google.com/file/d/1_88zzHACR4zq76cBQpoo4GY1GsB1BHvj/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1E8qEzDoXgqZmZue8c7eYSX4rSG-Pp3q1/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dakshkhungla/",
   insta: "https://www.instagram.com/dakshkhungla/",
 };
