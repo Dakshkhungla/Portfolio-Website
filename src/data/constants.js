@@ -278,7 +278,7 @@ export const education = [
     img: "https://www.bvmengineering.ac.in/assets/images/bvm-logo-gold.png",
     school: "Birla Vishvakarma Mahavidhyalay",
     date: "Sep 2023 - May 2026",
-    grade: "8.26 CPI",
+    grade: "8.51 CPI",
     desc: "I have currently pursuing my graducation in Bachelor's degree in Information Technology.I am an entusiastic learner and always ready to learn new things.",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
@@ -297,6 +297,26 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "WealthNexus – Mutual Fund Investment Platform",
+    date: "2025",
+    description:
+      "A full stack mutual fund platform built with React.js, Java Spring Boot, and RabbitMQ, bringing together investment, portfolio management, and financial planning into a single application. Features a daily NAV ingestion pipeline that fetches and processes data for 14,000+ mutual fund schemes using scheduled Spring Boot jobs with RabbitMQ Retry Queues and Dead Letter Queues for fault tolerance. Enables users to invest & redeem mutual funds, track portfolios, create goal-based investment plans, analyze risk appetite with portfolio rebalancing, perform SIP/STP/SWP transactions, visualize performance with interactive graphs, explore 14,000+ schemes, view fund manager insights via MFAPI, and access financial calculators.",
+    image: "https://media.licdn.com/dms/image/v2/D4D22AQGLfPewI3AAKQ/feedshare-shrink_480/B4DZ8cS6UzKYAk-/0/1782886148149?e=1786579200&v=beta&t=lfLfmjcuPAOxLPVy0FpzCJLpyMTgwg49uEGnYzjeP7U",
+    tags: [
+      "React.js",
+      "Spring Boot",
+      "RabbitMQ",
+      "Mutual Funds",
+      "Full Stack",
+      "MFAPI",
+      "Portfolio Management",
+      "FinTech"
+    ],
+    category: "web app",
+    webapp: "https://logicwealth.vercel.app/"
+  },
+  {
+    id: 1,
     title: "Decertify – Blockchain Certificate Verification",
     date: "2025",
     description:
@@ -313,7 +333,7 @@ export const projects = [
     webapp: "https://educertchain.vercel.app/"
   },
   {
-    id: 1,
+    id: 2,
     title: "Trackify – Email Tracking System",
     date: "2025",
     description:
@@ -330,7 +350,7 @@ export const projects = [
     webapp: "https://trackifymail.vercel.app/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "MySQL to NoSQL Converter",
     "date": "Jan 2025 - Feb 2025",
     "description": "Designed and deployed a Node.js web app to automate SQL to MongoDB conversions, improving data accessibility and migration efficiency for 5+ teams. Preserved foreign key relationships by converting them to MongoDB-compatible references, ensuring data integrity. Integrated Jenkins for CI/CD with Docker builds and deployments to DockerHub, cutting deployment time by 50%. Implemented Trivy and SonarQube scans with automated reporting to enhance code quality and security.",
@@ -352,7 +372,7 @@ export const projects = [
   }
   ,
   {
-    "id": 3,
+    "id": 4,
     "title": "TrackMyLogs – Log Monitoring Tool",
     "date": "Mar 2025 - Apr 2025",
     "description": "Built a real-time Windows log monitoring tool using a Python Tkinter client and Django backend for centralized analysis. Implemented Redis caching for fast log storage and retrieval during peak loads. Designed a cross-platform Progressive Web App (PWA) for seamless access across devices. Automated Docker builds and deployments via Jenkins, ensuring continuous delivery. Integrated email reporting of log summaries to enable proactive system monitoring.",
@@ -374,7 +394,7 @@ export const projects = [
   }
   ,
   {
-    id: 4,
+    id: 5,
     title: "Payroll Management System",
     date: "Jan 2023 - Mar 2023",
     description:
@@ -391,7 +411,7 @@ export const projects = [
     category: "desktop app",
   },
   {
-    id: 5,
+    id: 6,
     title: "Ganesh Tours and Travels",
     date: "Apr 2023 - Jun 2023",
     description:
@@ -409,7 +429,7 @@ export const projects = [
     //     github: "https://github.com/YourUsername/Ganesh-Tours-And-Travels"
   },
   {
-    id: 6,
+    id: 7,
     title: "Plant Disease Identification System",
     date: "Jul 2023 - Sep 2023",
     description:
